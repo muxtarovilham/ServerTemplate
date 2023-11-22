@@ -1,0 +1,286 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #343A40;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .reglog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+header .reglog .reg {
+  width: 109px;
+  height: 42px;
+  background-color: #343A40;
+  transition: background-color 0.3s ease;
+  border: 1px solid #7cbd1e;
+  color: white;
+}
+header .reglog .reg:hover {
+  background-color: #7cbd1e;
+}
+header .reglog .log {
+  width: 89px;
+  height: 42px;
+  transition: background-color 0.3s ease;
+  background-color: #7cbd1e;
+  border: none;
+  color: white;
+}
+header .reglog .log:hover {
+  background-color: #679e19;
+}
+
+#navbarNav {
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+#navbarNav ul li a {
+  color: rgb(213, 213, 213);
+  transition: color 0.3s ease;
+}
+#navbarNav ul li a:hover {
+  color: rgb(255, 255, 255);
+}
+
+main .section1 {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+}
+main .section1 .section1words {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 21px;
+  position: absolute;
+  left: 30%;
+  top: 40%;
+}
+main .section1 .section1words h1 {
+  color: white;
+  font-size: 71px;
+  font-weight: 300;
+  line-height: 1.2;
+}
+main .section1 .section1words p {
+  color: white;
+  font-size: 21px;
+}
+main .section1 .section1words .buttons {
+  display: flex;
+  gap: 14px;
+}
+main .section1 .section1words .buttons .download {
+  width: 172px;
+  height: 58px;
+  border: none;
+  background-color: #7cbd1e;
+  transition: background-color 0.4s ease;
+  color: white;
+}
+main .section1 .section1words .buttons .download:hover {
+  background-color: #679e19;
+}
+main .section1 .section1words .buttons .getintouch {
+  width: 172px;
+  height: 58px;
+  border: none;
+  background-color: transparent;
+  transition: background-color 0.4s ease;
+  border: 1px solid white;
+  color: white;
+}
+main .section1 .section1words .buttons .getintouch:hover {
+  background-color: white;
+  color: black;
+}
+main .sec2 {
+  gap: 21px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 21px;
+}
+main .sec2 .h11 {
+  color: rgb(85, 85, 85);
+  font-size: 33px;
+  width: 40%;
+  text-align: center;
+}
+main .sec2 .col1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 14px;
+}
+main .sec2 .col1 .hosting {
+  width: 354px;
+  height: 354px;
+  border: 1px solid gainsboro;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .sec2 .col1 .hosting i {
+  font-size: 40px;
+}
+main .sec2 .col1 .hosting button {
+  width: 141px;
+  height: 42px;
+  border: none;
+  transition: background-color 0.4s ease;
+  background-color: #7cbd1e;
+  color: white;
+}
+main .sec2 .col1 .hosting button:hover {
+  background-color: #679e19;
+}
+main .sec2 .col1 .hosting h1 {
+  font-size: 21px;
+}
+main .sec3 {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+}
+main .sec3 .woman {
+  position: absolute;
+  top: 40%;
+  left: 7%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 14px;
+}
+main .sec3 .woman button {
+  width: 195px;
+  height: 58px;
+  transition: background-color 0.4s ease;
+  background-color: #7cbd1e;
+  border: none;
+  color: white;
+}
+main .sec3 .woman button:hover {
+  background-color: #679e19;
+}
+main .sec3 .woman h1 {
+  font-size: 71px;
+  color: white;
+}
+main .sec3 .woman p {
+  font-size: 33px;
+  color: white;
+}
+main .sec4 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .sec4 .col2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+main .sec4 .col2 .quality {
+  width: 70%;
+  height: 268px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid gainsboro;
+  padding: 14px;
+}
+main .sec4 .col2 .quality p {
+  color: #717171;
+}
+main .sec4 .col2 .quality .word {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .sec4 .col2 .quality .word i {
+  font-size: 40px;
+}
+main .sec4 .col2 .quality .word h2 {
+  font-size: 28px;
+}
+main .sec5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .sec5 .wordz {
+  width: 40%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 21px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .sec5 .wordz img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+footer {
+  width: 100%;
+  background-color: #393E46;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer .cl3 {
+  width: 100%;
+}
+footer .end {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+footer .end h1 {
+  color: white;
+  font-size: 21px;
+}
+footer .end p {
+  color: rgb(188, 188, 188);
+}
+footer p {
+  color: white;
+}
